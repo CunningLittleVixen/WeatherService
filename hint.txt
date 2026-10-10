@@ -1,0 +1,18 @@
+- переименовать ветку у себя
+git branch -m старое новое
+
+- связать мой гит с пустым гитхабом
+git remote add origin https://github.com/CunningLittleVixen/calculator.git
+
+- проверить куда привязан
+git remote -v
+
+при создании нового проекта необходимо
+Клонировать или привязать remote с правильным алиасом
+git remote add origin git@github.com-forIdea:владелец/новый-репо.git
+например у меня в идее
+git remote set-url origin git@github.com-forIdea:CunningLittleVixen/calculator.git
+Задать локальные user.name / user.email в новом репозитории
+git config user.name "CunningLittleVixen"
+git config user.email "buka116@yandex.ru"
+потом сделать git push
